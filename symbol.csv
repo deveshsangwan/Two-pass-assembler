@@ -1,0 +1,7 @@
+Name,Type,Location,Size,SectionID,IsGlobal
+abc,label,-1,-1,-1,true
+bcd,external,-1,-1,-1,false
+Y,var,0,24,1,false
+sum,var,24,12,1,false
+Label1,label,15,-1,2,false
+Label2,label,38,-1,2,false

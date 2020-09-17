@@ -1,0 +1,19 @@
+global abc 
+extern bcd
+section data
+Y dd 35,23,48,2,9,9
+sum dd 7,0,10
+section text
+MVI I, 0
+MVI C, 0
+MVI B, Y
+Label1:		LOADI
+		INC B
+		ADD C
+		CMP B, 10
+		JE Label2
+		ADDI 4
+		JMP Label1
+Label2:		MOV C ,A
+		STORE sum
+		STOP
