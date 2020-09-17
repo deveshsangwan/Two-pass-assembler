@@ -1,7 +1,7 @@
-# 2-Pass-Assembler
-C++ code for 2 Pass Assembler
+# Two-Pass-Assembler
+C++ code for Two Pass Assembler
 
-This is a simple C++ code for 2 pass assembler.
+This is a simple C++ implementatiob for a Two pass assembler.
 
 Over-review of the Code
 
@@ -12,7 +12,7 @@ There are 2 main methods:
 
 
 Other Functions:
-1. <b>dec_to_bin(int)</b> : dec_to_bins the given decimal number to the <b>Binary String</b>
+1. <b>dec_to_bin(int)</b> : converts the given decimal number to the <b>Binary String</b>
 2. <b>inti()</b> : Initialize the Machine Opcode Array with Name, Binary Code and Size.
 3. <b>search_MOT(string)</b> : It searchers the MOT for the asked Machine Code and returns <b>index</b> in array.
 4. <b>search_symbol_table(string)</b> : It searches the symbol_table and returns the <b>location</b> of the symbol.
