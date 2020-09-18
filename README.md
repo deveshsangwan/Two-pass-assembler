@@ -2,16 +2,16 @@
 By [Devesh Sangwan](https://github.com/deveshsangwan), [Shikhar Panwar](https://github.com/shikharpanwar4)
 This is a simple C++ implementatiob for a Two pass assembler.
 
-## Overview of the Code
-### pass1: 
+# Overview of the Code
+## pass1: 
 - Extracts all symbols and sections.
 - A symbol and section table is generated and are stored in a csv file.
-### pass2: 
+## pass2: 
 - Each instruction is converted to machine code. 
 - The programs again reads the symbol table to get addresses associated with each symbol.
 
 
-### Other Functions:
+## Other Functions:
 - <b>dec_to_bin(int)</b> : converts the given decimal number to the <b>Binary String</b>
 - <b>search_MOT(string)</b> : It searchers the MOT for the asked Machine Code and returns <b>index</b> in array.
 - <b>search_symbol_table(string)</b> : It searches the symbol_table and returns the <b>location</b> of the symbol.
@@ -21,15 +21,12 @@ This is a simple C++ implementatiob for a Two pass assembler.
 - <b>store_sec()</b> : Store section table in csv.
 
 
-### Structures:
+## Structures:
 - <b>mnemonics</b> : Machine Operation Table
 - <b>symbol</b> : Symbol Table
 - <b>section</b>: Section Table
 
-### Data Structures:
+## Data Structures:
 - Vector
 - File Stream
-
-
-For any queries you can mail me at: dev.sangwan2001@gmail.com
   
