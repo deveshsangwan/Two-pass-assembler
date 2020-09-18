@@ -1,6 +1,5 @@
 # Two-Pass-Assembler
-C++ code for Two Pass Assembler
-
+By [Devesh Sangwan](https://github.com/deveshsangwan), [Shikhar Panwar](https://github.com/shikharpanwar4)
 This is a simple C++ implementatiob for a Two pass assembler.
 
 ## Overview of the Code
@@ -31,6 +30,6 @@ This is a simple C++ implementatiob for a Two pass assembler.
 - Vector
 - File Stream
 
-Thank You.
+
 For any queries you can mail me at: dev.sangwan2001@gmail.com
   
